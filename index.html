@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+  <title>Rock Paper Scissors</title>
+  <script src="scripts/script.js"></script>
+</head>
+<body>
+  <div id="game">
+    <h1>Wanna play Rock Paper Scissors?</h1>
+    <p>I will be your opponent! BEST OF 5!</p>
+    <button class="buttons" value="paper" onclick="game(this.value)">Paper</button>
+				<button class="buttons" value="scissors" onclick="game(this.value)">Scissors</button>
+        <button class="buttons" value="rock" onclick="game(this.value)">Rock</button>
+        <p id="description">Let's play!</p>
+				<p id="score">0:0</p>
+				<p id="reset" onclick="reset();">Reset</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    background-color: #443f42;
+}
+#game {
+    border: 5px dashed #d3dad8;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 600px;
+    height: 380px;
+    margin: auto;
+    padding: 25px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#game h1, p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#game h1 {
+    font-size: 25px;
+}
+
+#game p {
+    font-size: 16px;
+    margin: 5px;
+    padding-bottom: 0px;
+}
+
+button {
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 85px;
+    padding: 10px 0px;
+}
+button:hover {
+    background-color: #c8c3c9;
+    border: 1px solid #c8c3c9;  
+}
+
+
+button:focus {
+    outline: none;
+    background-color: #c8c3c9;
+
+}
+
+.buttons {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#reset {
+    text-decoration: underline;
+    text-transform: uppercase;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#reset:hover {
+    color: #111111;
+    transition: color 0.3s linear;
+}
