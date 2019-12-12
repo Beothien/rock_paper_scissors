@@ -42,19 +42,19 @@ function playRound(playerSelection, computerSelection) {
 // Display the description of a single round results
 function diplayResult(outcome, playerSelection, computerSelection) {
     switch(outcome) {
-        case 'win':
-            document.getElementById("description").innerHTML = "Your" + playerSelection + " beats my " + computerSelection + " ...";
+        case "win":
+            document.getElementById("description").innerHTML = "Your" + playerSelection + " win againt my " + computerSelection + " ...";
             break;
-        case 'draw':
-            document.getElementById("description").innerHTML = "It's draw! We both choose " + playerSelection;
+        case "draw":
+            document.getElementById("description").innerHTML = "It's draw! We both chose " + playerSelection;
             break;
-        case 'lose':
-            document.getElementById("description").innerHTML = "My" + computerSelection + " beats your " + playerSelection + " ...";
+        case "lose":
+            document.getElementById("description").innerHTML = "My" + computerSelection + " destroys your " + playerSelection + " ...";
     }
 }
 // Update the score displayed after one game
 function updateScore() {
-    document.getElementById("score").innerHTML = userScore + ":" + computerScore;
+    document.getElementById("score").innerHTML = userScore + " to " + computerScore;
 }
 
 function scoreCheck() {

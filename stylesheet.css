@@ -2,7 +2,7 @@ body {
     background-color: #443f42;
 }
 #game {
-    border: 5px dashed #d3dad8;
+    border: 5px groove #d3dad8;
     text-align: center;
     display: block;
     position: absolute;
@@ -39,7 +39,7 @@ button {
     border: 1px solid #000000;
     border-radius: 2px;
     color: #ffffff;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -65,6 +65,7 @@ button:focus {
 }
 
 #reset {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
     text-transform: uppercase;
     position: absolute;
