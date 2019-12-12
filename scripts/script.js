@@ -72,7 +72,7 @@ function scoreCheck() {
 	gameOver = false;
     userScore = 0;
 	computerScore = 0;
-	score();
+	updateScore();
     document.getElementById("description").innerHTML = "Game reset";
  }
 
